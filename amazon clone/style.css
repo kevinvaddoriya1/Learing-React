@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #cccccc;
+}
+.navbar {
+  background-color: #131921;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.nav-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 15px;
+}
+.border:hover {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.nav-address {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: max-content;
+}
+
+.main-address {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.add-first {
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin-left: 22px;
+}
+
+.address-location {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  justify-content: center;
+}
+
+.location-icon {
+  margin-right: 5px;
+}
+.add-second {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-sprite {
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png);
+  background-size: 350px;
+}
+
+.nav-logo-base {
+  float: left;
+  text-indent: -500px;
+  background-position: -9px -125px;
+  width: 98px;
+  height: 34px;
+}
+
+.nav-search {
+  width: 40%;
+  height: 45px;
+  display: flex;
+  background-color: pink;
+  border-radius: 5px;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.search-select {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  background-color: #e6e6e6;
+  width: 65px;
+  color: #131921;
+  text-align: center;
+}
+
+.search-icon {
+  width: 55px;
+  font-size: 1.2rem;
+  background-color: #febd69;
+  color: #131921;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nav-account {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-fist {
+  font-size: 0.85rem;
+}
+.account-second {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.cart-icon {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.nav-cart {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.cart-container {
+  display: flex;
+  align-items: end;
+}
+
+.menu {
+  background-color: #232f3e;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.menu-all {
+  height: 100%;
+  display: flex;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  height: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.banner-content {
+  background-image: url("/amazon clone/assets/banner-display.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  max-width: none;
+}
+
+.content-shop {
+  display: flex;
+
+  color: black;
+  position: relative;
+  top: -200px;
+}
+.box-row {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.box1 {
+  width: 100%;
+  color: #131921;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  height: max-content;
+  
+}
+
+.box1 p{
+    color: #000;
+}
+.img1 {
+  width: 100%;
+  height: 450px;
+  background-image: url("https://m.media-amazon.com/images/I/71MGiPTwXAL._AC_SL1500_.jpg");
+  background-size: cover;
+}

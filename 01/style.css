@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 55px;
+  justify-content: space-evenly;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  align-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+li :hover {
+  background-color: aliceblue;
+  color: black;
+  /* transform: translate(20px, 50px);
+
+  transition-duration: 0.5s; */
+  animation-name: listhover;
+  animation-duration: 1s;
+}
+
+@keyframes listhover {
+  from {
+    font-size: 15px;
+  }
+  to {
+    font-size: 30px;
+  }
+}
+li {
+  list-style: none;
+  height: 100%; /* List item takes the full height of the navbar */
+  display: flex;
+  align-items: center;
+}
+
+#outer {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  align-self: flex-start;
+}
+
+.nav-btn {
+  background-color: aliceblue;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+#loader-div {
+  border-radius: 50%;
+  border: 10px solid black;
+  border-top: 10px solid rgb(3, 255, 16);
+
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  animation-name: loaderanim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes loaderanim {
+    from{
+        transform : rotate(0deg);
+    }
+    to{
+        transform : rotate(360deg);
+
+    }
+}
